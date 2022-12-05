@@ -4,7 +4,7 @@ const activeStyle = {
   textDecoration: "underline",
 };
 
-function Layout() {
+function Navbar() {
   return (
     <>
       <header>
@@ -35,4 +35,4 @@ function Layout() {
   );
 }
 
-export default Layout;
+export default Navbar;

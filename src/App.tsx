@@ -1,17 +1,16 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Layout from "./Layout";
 import "./App.css";
 import Default from "./Default";
 import Fast from "./Fast";
+import Navbar from "./Navbar";
 
 function App() {
   return (
     <BrowserRouter basename="/fast-context">
+      <Navbar />
       <Routes>
-        <Route element={<Layout />}>
-          <Route index element={<Default />} />
-          <Route path="/fast" element={<Fast />} />
-        </Route>
+        <Route path="/" element={<Default />} />
+        <Route path="/fast" element={<Fast />} />
         <Route path="*" element={<div>Not found!</div>} />
       </Routes>
     </BrowserRouter>
