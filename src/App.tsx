@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 
 function App() {
   return (
-    <BrowserRouter basename="/fast-context">
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Default />} />
