@@ -6,7 +6,7 @@ import Fast from "./Fast";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/fast-context">
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<Default />} />
