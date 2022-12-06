@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <>
       <header>
-        <h1>React Context Workshop</h1>
+        <h1>Ref-based Fast React Context</h1>
       </header>
       <nav>
         <ul>
