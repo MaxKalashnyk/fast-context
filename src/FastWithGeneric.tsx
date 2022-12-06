@@ -57,7 +57,7 @@ const ContentContainer = () => {
   );
 };
 
-function Fast() {
+function FastWithGeneric() {
   return (
     <Provider>
       <div className="container">
@@ -68,4 +68,4 @@ function Fast() {
   );
 }
 
-export default Fast;
+export default FastWithGeneric;
