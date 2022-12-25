@@ -3,8 +3,16 @@ Fast Context React App
 
 ## Installation
 
-``` $ yarn ```
+``` bash
+
+$ yarn 
+
+```
 
 ## Running the app
 
-``` yarn dev ```
+``` bash
+
+$ yarn dev
+
+```
